@@ -182,8 +182,13 @@ margin: 130px;
 }
 
 /* resume  section style */
+
 .resume-column-title{
 color: #474747;
 font-size: 30px;
 font-weight: 700;
+}
+
+.resume-container{
+    display: flex;
 }
