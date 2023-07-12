@@ -45,9 +45,6 @@ nav a{
     color:#474747;
     font-weight: 100;
 }
-section{
-    margin: 180px;
-}
 
 
 /* header related styele */
@@ -90,12 +87,20 @@ margin-bottom: 10pxpx
 }
 .banner-content{
     max-width: 500px;
+    margin: 0 auto;
 
 }
 
 /* header end */
 
 /* main section start */
+
+main{
+    padding: 130px;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 /* about me section start */
 .about{
     padding: 130px;
@@ -115,3 +120,25 @@ text-align: center;
 font-size: 18px;
 }    
 
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-info{
+    margin: 0;
+    text-align: center;
+}
+
+.info-title{
+color: #474747;
+text-align: center;
+font-size: 20px;
+font-weight: 400;
+}
+.infor-des{
+color: #757575;
+text-align: center;
+font-size: 20px;
+font-weight: 200;
+}
